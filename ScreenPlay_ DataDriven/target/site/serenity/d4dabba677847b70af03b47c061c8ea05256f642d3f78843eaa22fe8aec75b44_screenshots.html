@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5cb4bff2c11db34b7d13e8a8531de87e4c9817ce67b0a74c04f423808d9e7af5.html">The User Wants To Enter The Automation Demo Site Page And Register Correctly</a></span>
+                > <span class="truncate-60"><a
+                    href="d4dabba677847b70af03b47c061c8ea05256f642d3f78843eaa22fe8aec75b44.html">Fill registration form on the page Automation Demo site </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-07-2020 12:42</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">The User Wants To Enter The Automation Demo Site Page And Register Correctly </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="7c8ff03f79c62242705459bc7fb581a2778e4e821ef5ef8869613cfce8971cee.html">Exitoso
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Fill registration form on the page Automation Demo site
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given than Carlos wants join to the website Automation Demo site<br>When Carlos fill the form with your data<br>Then verify that the registration was correct with the text Table Row.</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: Error al diligenciar los datos, compruebe que el correo o el numero de celular no esten registrados previamente - Expected: an element that is not visible but: the element identified by css: div[ng-if='errorlabel'] [Email already existsPhone number already exists] was visible">
+                            Assertion error: Error al diligenciar los datos, compruebe que el correo o el numero de celular no esten registrados previamente - Expected: an element that is not visible but: the element identified by css: div[ng-if='errorlabel'] [Email al...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Error al diligenciar los datos, compruebe que el correo o el numero de celular no esten registrados previamente - <br>Expected: an element that is not visible<br>     but: the element identified by css: div[ng-if='errorlabel'] [Email already exists<br>Phone number already exists] was visible</pre>
+                                    </h5>
+                                    task.Diligenciar.performAs(Diligenciar.java
+                                    :60) <br>
+                                    com.example.stepdefinitions.AutomationDemosStepDefinitions.Carlos_fill_the_form_with_your_data(AutomationDemosStepDefinitions.java
+                                    :31) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6755947121383723967.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="111a0dd54c981a48bfd826b2030b095b8942cc291fc1917c4d8d516d1347dcce.png" title="Given than Carlos wants join to the website Automation Demo site" width="1366"/>
+                <img src="8dbb80f6283de27a0215a434cd4ee7e3d7f5941e2207c28adb0b0ca797926e0a.png" title="Carlos opens the Automation demo site page" width="1366"/>
+                <img src="29fabb42b259fa1176232054598eeff288b3f76392358d7a20b71d8dbec36404.png" title="Carlos enters 'Carlos' into Se ingresa nombre" width="1366"/>
+                <img src="277d1daeff45eed1a56a4c46a8d6779d70bdbe7b4c6a516e4cbccfbee6891484.png" title="Carlos enters 'Mestra' into Se ingresa apellido" width="1366"/>
+                <img src="718669a6a167a2eef2edaeaa9f677bd43d865818aacc828a4546a18b16ed0937.png" title="Carlos enters 'calle 9c 87-99 Valle Heaven' into Se ingresa la direcci&oacute;n" width="1366"/>
+                <img src="47d1e00475131855eaa58962dee6d08f0ee0cab96d1ff33f968751b8ccdeaead.png" title="Carlos enters 'jose@gmail.com' into Se ingresa correo electronico" width="1366"/>
+                <img src="db2f9dc2f928d5177bcca1d747460aae3566e8fd67419ec470933ca9f82a2149.png" title="Carlos enters '3126911943' into Se ingresa numero de celular" width="1366"/>
+                <img src="f1511f0f5a69e80a657feae99b1e2341c52d09e2d99c8dadda80d8116987de8b.png" title="Carlos clicks on Se selecciona el campo lenguaje" width="1366"/>
+                <img src="b95cd09141b877e6f51900082dea7bca29ba0fcf5f9c6cc9f9aa20134f9a4146.png" title="Carlos select Adobe Photoshop on Se selecciona una especialidad" width="1366"/>
+                <img src="98857bb1e3fe5889166d3612e712bdc1b6b1de8dec109f6362b6cd9950069ee1.png" title="Carlos select Colombia on Se selecciona un pais" width="1366"/>
+                <img src="53f488ba32359705f897071fa3d419fa36c3befc207a7718fac0c9f88ea20d4e.png" title="Carlos clicks on Se selecciona un lugar" width="1366"/>
+                <img src="b4c817305d848052d993a45e8bcfe7d50bb19f1293b0f43b2e7d9ea7badf964c.png" title="Carlos enters 'Japan' into Se digita un lugar" width="1366"/>
+                <img src="4e84e227bb384ca09b157473c65796e19f4fd3889d2066f9409cad8bcef65ccb.png" title="Carlos types 'ENTER' in Se digita un lugar" width="1366"/>
+                <img src="75b748e3610052407f91d604752475f220aa3531fe32a9ef8f5ce685fc319147.png" title="Carlos select 1990 on Se selecciona A&Ntilde;O de nacimiento" width="1366"/>
+                <img src="d38c3887b7bb65981d18b7967e874284bca7d3289a8947b45ca65fc8b2049ff3.png" title="Carlos select July on Se selecciona MES de nacimiento" width="1366"/>
+                <img src="7392255d5d54fe8bf1b878810f8faffd6094a412789a4df09cbc7b8227a57ac4.png" title="Carlos select 2 on Se selecciona DIA de nacimiento" width="1366"/>
+                <img src="78a45183956c9d368ee7c0e5bbe7f14a6809a4b8df0f28791f5c467d7a8b6353.png" title="Carlos enters 'Qw123456789' into Se ingresa el password" width="1366"/>
+                <img src="6164fa72d4f2dc76c202d6d29c07c3c0a8f085d6d7e28f4c1e206aa5ece96dc7.png" title="Carlos enters 'Qw123456789' into Se confirma el password" width="1366"/>
+                <img src="b02b18d59eef1990aa147abda282874fc71e3a5e6847a5ee64e104d9807d1aaf.png" title="Carlos clicks on se presiona paa enviar la informaci&oacute;n" width="1366"/>
+                <img src="b02b18d59eef1990aa147abda282874fc71e3a5e6847a5ee64e104d9807d1aaf.png" title="Then se presiona paa enviar la informaci&amp;oacute;n should be an element that is not visible: <span class='failing-color'>FAILURE</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

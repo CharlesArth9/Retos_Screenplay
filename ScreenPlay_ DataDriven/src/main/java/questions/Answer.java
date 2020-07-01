@@ -3,7 +3,7 @@ package questions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import userInterface.AutomationDemoWebTablePage;
+import userinterface.AutomationDemoWebTablePage;
 
 public class Answer implements Question<Boolean> {
     private String question;

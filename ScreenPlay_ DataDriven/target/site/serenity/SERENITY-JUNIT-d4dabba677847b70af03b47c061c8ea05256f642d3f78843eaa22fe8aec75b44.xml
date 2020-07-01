@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="the user wants to enter the automation demo site page and register correctly" skipped="0" tests="1" time="19.28" timestamp="2020-07-01 12:42:50"><testcase name="Fill registration form on the page Automation Demo site"><failure message="Error al diligenciar los datos, compruebe que el correo o el numero de celular no esten registrados previamente - &#10;Expected: an element that is not visible&#10;     but: the element identified by css: div[ng-if='errorlabel'] [Email already exists&#10;Phone number already exists] was visible" type="java.lang.AssertionError">Error al diligenciar los datos, compruebe que el correo o el numero de celular no esten registrados previamente - 
+Expected: an element that is not visible
+     but: the element identified by css: div[ng-if='errorlabel'] [Email already exists
+Phone number already exists] was visible</failure><system-err>Error al diligenciar los datos, compruebe que el correo o el numero de celular no esten registrados previamente - 
+Expected: an element that is not visible
+     but: the element identified by css: div[ng-if='errorlabel'] [Email already exists
+Phone number already exists] was visible&#13;
+task.Diligenciar.performAs(Diligenciar.java:60)&#13;
+com.example.stepdefinitions.AutomationDemosStepDefinitions.Carlos_fill_the_form_with_your_data(AutomationDemosStepDefinitions.java:31)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
